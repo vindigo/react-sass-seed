@@ -1,0 +1,12 @@
+@import 'utils';
+@import 'variables';
+
+body {
+  margin: 0;
+  background: $oc-gray-2;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
