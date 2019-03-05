@@ -1,0 +1,32 @@
+@import 'src/styles/utils.scss';
+
+.navigation {
+  background-color: $oc-indigo-2;
+  overflow: hidden;
+
+  a {
+    float: left;
+    color: $oc-gray-0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+    &:hover {
+      background-color: $oc-gray-4;
+      color: $oc-gray-9;
+    }
+  }
+
+  .active {
+    background-color: $oc-gray-4;
+    color: $oc-gray-9;
+  }
+
+  .logo { 
+    display: inline-block;
+    float: left; 
+    text-align: center;
+    padding: 14px 16px;
+  }
+}
